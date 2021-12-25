@@ -6,7 +6,7 @@ This project was inspired in part by my good friend, [Miguel](https://github.com
 This project is designed to replicate the experience of an external monitor on another device as close as possible.
 
 ## OS Support
-- Windows
+- Windows (with custom virutal monitor driver)
 - Linux (with `xrandr`)
 
 ## Dependencies
