@@ -12,3 +12,6 @@ This project is designed to replicate the experience of an external monitor on a
 ## Dependencies
 - [pion/webrtc](https://github.com/pion/webrtc)
 - [gorilla/websocket](https://github.com/gorilla/websocket)
+
+## Virtual Monitor Driver
+- Much of the code for the virtual monitor driver was taken from Microsoft's [indirect display driver](https://github.com/microsoft/Windows-driver-samples/blob/master/video/IndirectDisplay/) sample code. I merely refactored and removed much of the unnecessary code as the main portion of this project is written in Go. 
